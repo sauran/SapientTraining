@@ -1,0 +1,11 @@
+package com.sapient.math;
+
+import junit.framework.TestCase;
+
+public class ArithmaticTestCase extends TestCase {
+
+	public final void testSum() {
+		fail("Not yet implemented");
+	}
+
+}

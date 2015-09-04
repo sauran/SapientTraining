@@ -1,0 +1,37 @@
+/**
+ * 
+ */
+package com.sapient.math;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+/**
+ * @author span42
+ *
+ */
+public class FindPerfectNumber{
+	
+	public boolean  perfectNumber() throws NumberFormatException, IOException{
+		
+		BufferedReader bufferObject=new BufferedReader(new InputStreamReader(System.in));
+		int number = Integer.parseInt(bufferObject.readLine());
+		
+		int sum = 0;
+		for(int counter=0;counter<number;counter++){
+			
+			if(number%counter==0){
+				sum = sum +counter;
+			}
+		}
+		if(sum==number){
+			return true;
+		}else{
+			return false;
+		}
+		
+		
+	}
+
+}

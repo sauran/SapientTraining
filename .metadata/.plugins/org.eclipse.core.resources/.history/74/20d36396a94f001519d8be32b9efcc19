@@ -1,0 +1,45 @@
+/**
+ * 
+ */
+package package1;
+
+
+enum Apple{
+	Jonathan(10),GoldenDel(9),RedDel(8),Winesap(7),Cortland(6);
+	
+	private int price;
+	Apple(int p){
+		price = p;
+		
+	}
+	int getPrice(){
+		return price;
+	}
+	
+}
+/**
+ * @author span42
+ *
+ */
+public class MainApp1 {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		
+		Apple ap;
+		System.out.println("Winesap costs  " + Apple.Winesap.getPrice() + "  cents");
+		//System.out.println("All Apple contants");
+		//Apple allapples[] = Apple.values();
+		//for(Apple a: allapples)
+			//System.out.println(a);
+		//ap = Apple.valueOf("Winesap");
+		System.out.println("All Apples costs");
+		for(Apple a: Apple.values())
+			System.out.println(a + " costs  " + a.getPrice() +  "  cents  ");
+ 	// TODO Auto-generated method stub
+
+	}
+
+}

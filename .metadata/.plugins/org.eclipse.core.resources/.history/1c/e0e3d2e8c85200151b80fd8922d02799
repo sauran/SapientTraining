@@ -1,0 +1,34 @@
+/**
+ * 
+ */
+package com.sapient.client;
+
+/**
+ * @author span42
+ *
+ */
+public class Cheque implements Payment {
+	
+	private String name;
+	
+	private String bankID;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getBankID() {
+		return bankID;
+	}
+
+	public void setBankID(String bankID) {
+		this.bankID = bankID;
+	}
+	
+	
+
+}

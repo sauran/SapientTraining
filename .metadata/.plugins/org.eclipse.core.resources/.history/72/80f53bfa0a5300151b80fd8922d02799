@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.sapient.client;
+
+/**
+ * @author span42
+ *
+ */
+public interface Authorization {
+
+}
