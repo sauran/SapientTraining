@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign Up</title>
+
+<style>
+
+fieldset{
+width:500px;
+}
+label.field{
+text-align:right;
+width:100px;
+float:left;
+font-weight:bold;
+
+
+
+}
+input.textbox-300{
+
+width:300px;
+float:left;
+}
+fieldset p{
+
+clear:both;
+padding:5px;
+
+}
+
+</style>
+</head>
+<body >
+
+<form action=""  method = "get">
+
+<fieldset >
+<legend> Personal Information</legend>
+<p><label  class = "field" for = "Name"> Name    </label>
+<input type = "text" name= "LastName" placeholder= "last name"><br>
+<input type = "text" name= "e-mail id " placeholder= "e-mail id"><br>
+<input type="radio" name="sex" value="male" >Male
+<br>
+<input type="radio" name="sex" value="female">Female
+<br><br>
+<input type="submit">
+
+</fieldset>
+
+
+
+</form>
+
+
+
+
+
+
+
+</body>
+</html>

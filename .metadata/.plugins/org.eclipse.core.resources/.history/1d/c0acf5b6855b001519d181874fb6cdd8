@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome To Sapient</title>
+</head>
+<body>
+
+<p>Login into Sapient</p>
+<form action=""  method = "get" id = "form">
+
+<input  type = "text"   name = "username"><br>
+<input type = "password"  name = "password"><br>
+
+
+
+</form>
+
+</body>
+</html>

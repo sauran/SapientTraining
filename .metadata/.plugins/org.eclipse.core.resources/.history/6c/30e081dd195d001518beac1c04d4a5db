@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form name="loginForm" method="post" action="Demo.html">
+<input type="text"  name = "name"   placeholder= "name"><br>
+ <input type="password" name="password" placeholder = "password"><br>
+<input  type = "radio"   name = "sex"  value= "male">Male<br>
+<input  type = "radio"   name = "sex"  value= "female">Female<br>
+<select name = "cars">
+
+<option value = "xzy">xyz</option>
+<option value = "abc">abc</option>
+<option value = "pqr">pqr</option>
+
+</select>
+
+<input  type = "submit"  name = "click"  >
+
+
+</form>
+</body>
+</html>

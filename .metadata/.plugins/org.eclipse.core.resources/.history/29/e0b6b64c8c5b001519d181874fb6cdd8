@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Password Recovery</title>
+</head>
+<body>
+<input type = "text" placeholder = "e-mail-id"><br>
+
+
+</body>
+</html>

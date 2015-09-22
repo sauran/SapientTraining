@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+</head>
+<p style = "text-align:center;"><a href = "sapient.html" >  Home</a></p>
+
+<body>
+
+
+
+
+
+<form name = "LoginForm" action = ""  method= "post" >
+ 
+User  Name
+<input type  = "text"  name = "usename">
+ User PassWord
+ <input type = "password"  name = "psw">
+ 
+
+ <input type = "button"  value = "Click"  id = "btnClick">
+ 
+ 
+
+	
+	
+	
+	
+</form>
+
+<div id = "div1">
+<p id = "p1"> This is a paragraph</p>
+
+<p id = "p2"> This is another paragraph</p>
+
+</div>
+
+
+
+<script>
+
+
+
+
+var para =document.createElement("p");    // Creates a new HTML paragraph element
+
+var node = document.createTextNode("This is  new");       //Create a text node
+
+para.appendChild(node);   //Appends the text node to the paragraph element created
+var element=document.getElementById("div1");   //gets hold of the division tag whose id is div1
+   
+element.appendChild(para);    // Appends the paragraph element to the  the div targeted in the previous statement.
+
+</script>
+
+<script type="text/javascript"   src = "code.js">
+
+
+
+
+</script>
+
+
+
+
+
+
+</body>
+</html>

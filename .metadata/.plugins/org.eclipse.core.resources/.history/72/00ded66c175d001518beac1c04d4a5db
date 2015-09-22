@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form>
+<input type="text"  name = "name"   placeholder= "name">
+<br> <input type="password" name="password" placeholder = "password"><br>
+<input  type = "radio"   name = "sex"  value= "male"><br>
+<input  type = "radio"   name = "sex"  value= "female">
+
+<input  type = "submit"  name = "click"  >
+
+
+</form>
+</body>
+</html>

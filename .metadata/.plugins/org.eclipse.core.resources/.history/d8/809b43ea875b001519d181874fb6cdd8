@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title >Welcome To Sapient</title>
+</head>
+<body>
+
+<h1 style = "color:red" "text-align="center"> Login into Sapient </h1>
+<form action=""  method = "get" id = "form">
+Username <br>
+<input  type = "text"   name = "username"><br>
+Password<br>
+<input type = "password"  name = "password"><br><br>
+
+<input type  = "radio" >Remember me for a month
+
+
+
+</form>
+
+</body>
+</html>

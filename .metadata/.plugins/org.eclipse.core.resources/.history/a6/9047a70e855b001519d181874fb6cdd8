@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Sign Up</title>
+</head>
+<body style="background-color: #E6FFE6">
+<center style="color:red"> Welcome To Sapient </center>
+
+<input type="text" value = "Username">
+<input type = "password" value = "Password">
+
+
+
+
+</body>
+</html>

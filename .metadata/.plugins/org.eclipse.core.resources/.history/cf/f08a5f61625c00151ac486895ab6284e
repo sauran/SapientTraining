@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+  
+<script type="text/javascript">
+
+function ajaxFunction()
+{
+	var xmlHttp;
+	try{
+		
+		xmlHttp = new XMLHttpRequest();
+	}
+	catch(e){
+		
+		try{
+			
+			xmlHttp = new ActiveXObject("Msxml2.XMLHTTP");
+		}
+		catch(e){
+			
+			try{
+				
+				xmlHttp = new ActiveXObject("Microsoft.XMLHTTP");
+			}
+			catch(e){
+				alert("Your browser does not support AJAX!");
+				return false;
+				
+			}
+		}
+	}
+	xmlHttp.onreadystatechange=function()
+	{
+		if(xmlHttp.readyState=4)
+			{
+			
+			document.getElementById("divHello").innerHTML=xmlHttp.responseText;
+			}
+	}
+	xmlHttp.open("GET","greet?firstname=" + document.regfrm.fname.value,true);
+	xmlHttp.send(null);
+}
+</script>  
+  
+<form  name = "regfrm">
+
+<input type = "text" name = "fname"  placeholder = "firstname" onblur="ajaxFunction()"><br/>
+<input type = "text" name = "lname"  placeholder = "lastname" onblur="ajaxFunction()"> <br/>
+<input type = "text" name = "e-mail"   placeholder = "email address" onblur="ajaxFunction()"><br/>
+
+<div id = "divHello">  </div>
+
+
+</form>
+<input type ="button" value ="Click" onclick="checkCookie()">
+<script type="text/javascript" src = Cookie.js></script>
+</body>
+</html>

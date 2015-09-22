@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Angular JS</title>
+</head>
+<body>
+<div data-ng-app = "sapientApp"  data-ng-controller="sapientController">
+<input type="text" data-ng-model = "fname"/><br>First Name<br>
+<input type="text" data-ng-model = "lname"/><br>Last Name<br>
+<input type="text" value = "{{fname  + ' ' + lname}}"/><br>
+
+</div>
+
+
+ <!-- <script type = "text/javascript"  src= "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js" ></script> -->
+ 
+<!-- <script type = "text/javascript" >
+
+var app = angular.module('sapientApp',[]);
+app.controller('sapientController',function($scope){
+
+	/* $scope.fname = "abc"; */
+	/* $scope.lname = "xyz"; */
+	
+});
+
+
+
+
+
+</script> -->
+<script type = "text/javascript"  src= "https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js" ></script>
+<script  src = "js/angularjs.js"></script>
+
+
+</body>
+</html>

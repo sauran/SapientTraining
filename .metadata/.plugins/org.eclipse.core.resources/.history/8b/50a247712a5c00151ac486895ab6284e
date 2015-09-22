@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<meta charset="ISO-8859-1">
+<title>Welcome To Sapient</title>
+</head>
+
+
+<body>
+
+<style>
+
+h1 {
+color :red;
+font-size:150%;
+
+}
+p{
+color:#E6FFE6;
+font-size :150%;
+
+}
+div{
+
+font-size-adjust: inherit;
+}
+</style>
+
+<br>
+<br>
+<img alt="Sapient" src="images/Sapient1.png" align="middle">
+
+<h1>  Sapient is a marketing and consulting company that provides business, marketing, and technology services to clients. The company operates three divisions, SapientNitro, Sapient Global Markets and Sapient Government Services.</h1>
+<div >
+
+<a href = "Login.html"> Login</a><br>
+<a href = "Signup.html"> Signup</a>
+
+</div>
+
+</body>
+</html>

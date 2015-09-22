@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Password Recovery</title>
+</head>
+<body>
+
+Enter Your e-mail id<br>
+<input type = "text" placeholder = "e-mail-id"><br>
+
+
+</body>
+</html>
