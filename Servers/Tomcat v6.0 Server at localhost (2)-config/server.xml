@@ -131,7 +131,7 @@
                prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="false"/>
         -->
 
-      <Context docBase="DemoProject" path="/DemoProject" reloadable="true" source="org.eclipse.jst.jee.server:DemoProject"/><Context docBase="MVCDemo" path="/MVCDemo" reloadable="true" source="org.eclipse.jst.jee.server:MVCDemo"/><Context docBase="Filters" path="/Filters" reloadable="true" source="org.eclipse.jst.jee.server:Filters"/><Context docBase="WebDemo" path="/WebDemo" reloadable="true" source="org.eclipse.jst.jee.server:WebDemo"/><Context docBase="JSPDemo" path="/JSPDemo" reloadable="true" source="org.eclipse.jst.jee.server:JSPDemo"/></Host>
+      <Context docBase="DemoProject" path="/DemoProject" reloadable="true" source="org.eclipse.jst.jee.server:DemoProject"/><Context docBase="MVCDemo" path="/MVCDemo" reloadable="true" source="org.eclipse.jst.jee.server:MVCDemo"/><Context docBase="Filters" path="/Filters" reloadable="true" source="org.eclipse.jst.jee.server:Filters"/><Context docBase="WebDemo" path="/WebDemo" reloadable="true" source="org.eclipse.jst.jee.server:WebDemo"/><Context docBase="JSPDemo" path="/JSPDemo" reloadable="true" source="org.eclipse.jst.jee.server:JSPDemo"/><Context docBase="Demo" path="/Demo" reloadable="true" source="org.eclipse.jst.jee.server:Demo"/></Host>
     </Engine>
   </Service>
 </Server>

@@ -7024,3 +7024,33 @@ Caused by: java.lang.IllegalArgumentException: The value '
 	at org.eclipse.emf.ecore.xmi.impl.XMLHelperImpl.setValue(XMLHelperImpl.java:1156)
 	at org.eclipse.emf.ecore.xmi.impl.XMLHandler.setFeatureValue(XMLHandler.java:2666)
 	... 35 more
+
+!ENTRY org.eclipse.ui 4 4 2015-09-22 15:57:13.393
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2015-09-22 15:57:13.393
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-09-22 15:57:13.408
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2015-09-22 15:57:13.408
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.ui 4 4 2015-09-22 15:57:13.408
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.disable.grammar.constraints
+
+!ENTRY org.eclipse.ui 4 4 2015-09-22 15:57:13.408
+!MESSAGE Could not retrieve EHandlerService or ICommandService from context evaluation context fororg.eclipse.wst.xml.ui.reload.dependencies
+
+!ENTRY org.eclipse.wst.server.core 4 0 2015-09-22 16:03:45.489
+!MESSAGE Could not delete D:/Workspace/SauranNitro/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/JSPDemo/WEB-INF/lib/javax.servlet-3.0.jar. May be locked by another process.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2015-09-22 16:03:54.211
+!MESSAGE Could not delete D:/Workspace/SauranNitro/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/JSPDemo/WEB-INF/lib/javax.servlet-3.0.jar. May be locked by another process.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2015-09-22 16:04:56.798
+!MESSAGE Could not delete D:/Workspace/SauranNitro/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/JSPDemo/WEB-INF/lib/javax.servlet-3.0.jar. May be locked by another process.
+
+!ENTRY org.eclipse.wst.server.core 4 0 2015-09-22 16:05:05.738
+!MESSAGE Could not delete D:/Workspace/SauranNitro/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps/JSPDemo/WEB-INF/lib/javax.servlet-3.0.jar. May be locked by another process.
