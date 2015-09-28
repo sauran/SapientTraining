@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <servers>
-  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v6.0 Server at localhost (2)-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v6.0 Server at localhost (2)" name="Tomcat v6.0 Server at localhost (2)" runtime-id="Apache Tomcat v6.0" server-type="org.eclipse.jst.server.tomcat.60" server-type-id="org.eclipse.jst.server.tomcat.60" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="7">
-    <list key="modules" value0="DemoProject::org.eclipse.jst.jee.server:DemoProject::jst.web::2.5" value1="MVCDemo::org.eclipse.jst.jee.server:MVCDemo::jst.web::2.5" value2="Filters::org.eclipse.jst.jee.server:Filters::jst.web::2.5" value3="WebDemo::org.eclipse.jst.jee.server:WebDemo::jst.web::2.5" value4="JSPDemo::org.eclipse.jst.jee.server:JSPDemo::jst.web::2.5" value5="Demo::org.eclipse.jst.jee.server:Demo::jst.web::2.5"/>
-  </server>
-  <server auto-publish-time="1" hostname="localhost" id="JBoss 5.1 Runtime Server1442826912641" name="JBoss 5.1 Runtime Server" org.jboss.ide.eclipse.as.core.server.deployDirectoryType="metadata" org.jboss.ide.eclipse.as.core.server.serverMode="local" org.jboss.ide.eclipse.as.core.server.userName="admin" org.jboss.ide.eclipse.as.core.server.webPort="80" org.jboss.ide.eclipse.as.core.server.webPortAutoDetect="false" org.jboss.ide.eclipse.as.core.server.webPortAutoDetect.XPath="Ports/JBoss Web" runtime-id="JBoss 5.1 Runtime" server-type="org.jboss.ide.eclipse.as.51" server-type-id="org.jboss.ide.eclipse.as.51" start-timeout="450" stop-timeout="450" timestamp="2">
-    <list key="modules" value0="JSPDemo::org.eclipse.jst.jee.server:JSPDemo::jst.web::2.5"/>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v6.0 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v6.0 Server at localhost" name="Tomcat v6.0 Server at localhost" runtime-id="Apache Tomcat v6.0" server-type="org.eclipse.jst.server.tomcat.60" server-type-id="org.eclipse.jst.server.tomcat.60" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="1">
+    <list key="modules" value0="OneBanana::org.eclipse.jst.jee.server:OneBanana::jst.web::2.5"/>
   </server>
 </servers>

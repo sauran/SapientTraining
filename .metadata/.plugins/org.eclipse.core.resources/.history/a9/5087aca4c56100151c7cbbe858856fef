@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.onebanana.dao;
+
+/**
+ * @author span42
+ *
+ */
+public class Dbconnection {
+
+}
