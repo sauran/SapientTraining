@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:p="http://www.springframework.org/schema/p"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+    <context:annotation-config/>
+
+
+    
+    
+   <!-- <bean id = "parentBean" class = "com.sapient.client.Parent"> -->
+   <!-- <constructor-arg ref = "childBean1"/>  -->
+    <!-- <//bean>  -->
+    
+      <bean id = "parentBean" class = "com.sapient.client.Parent">
+    
+  
+    </bean>
+
+    <bean id = "childBean" class = "com.sapient.client.Child" p:name="NimishaSrivastava1993_23"/>
+    
+    <bean id = "childBean1" class = "com.sapient.client.Child" p:name="NimishaSrivastava"/>
+    
+    
+    
+    
+    <bean id="authBean" class="com.sapient.client.BasicAuthentication" scope="prototype">
+    <property name="maxAttempts" value="10"></property>
+      </bean>
+      
+      <!--   <bean id="parBean" class="com.sapient.client.Parent">
+      <constructor-arg ref="childBean"></constructor-arg>
+      </bean> -->
+      
+      
+    
+    <bean id="empBean" class="com.sapient.client.Employee" >
+      <constructor-arg value="Nimisha" index="1" type="String"/>
+    <constructor-arg value="1" index="0" type="int"/>
+    <property name="address">
+    <map>
+    <entry key="building" value="Sapient"></entry>
+     <entry key="city" value="Gurgaon"></entry>
+      <entry key="state" value="Haryana"></entry>
+      
+    
+    </map>
+  </property>
+    
+    
+    </bean>
+    </beans>

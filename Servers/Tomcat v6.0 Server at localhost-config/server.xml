@@ -131,7 +131,7 @@
                prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="false"/>
         -->
 
-      <Context docBase="OneBanana" path="/OneBanana" reloadable="true" source="org.eclipse.jst.jee.server:OneBanana"/></Host>
+      <Context docBase="SpringMVC" path="/SpringMVC" reloadable="true" source="org.eclipse.jst.jee.server:SpringMVC"/><Context docBase="SpringValidation" path="/SpringValidation" reloadable="true" source="org.eclipse.jst.jee.server:SpringValidation"/></Host>
     </Engine>
   </Service>
 </Server>

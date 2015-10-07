@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+	
+	xmls:p = "http://www.springwork.org/scheme/p"
+ http://www.springframework.org/schema/beans
+ http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+ http://www.springframework.org/schema/context
+ http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+	<bean id="authBean" class="com.sapient.security.SecureAuthentication"  >
+		<property name="maxAttempts"    value="353"></property>
+	</bean>
+	
+	 <bean id = "authBean1"   class= "com.sapient.spring.BasicAuthentication">
+	<property name="var"   value = "6356"></property>
+	
+	</bean>
+<bean id = "parentBean"   class = "com.sapient.spring.parent">
+<property name="child"     ref= "childBean"></property>     
+
+
+
+</bean>
+
+
+<bean id = "childBean"   class = "com.sapient.spring.Child" p:name = "saurabh">  
+
+
+
+</bean>
+</beans>
